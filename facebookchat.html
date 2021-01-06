@@ -1,0 +1,81 @@
+<html>
+  <head>
+    <title>FacebookLikePage</title>
+
+  </head>
+  <body>
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/th_TH/sdk.js#xfbml=1&version=v9.0"
+      nonce="bHR5C47u"
+    ></script>
+
+    <!-- Your like button code -->
+    <div
+      class="fb-page"
+      data-href="https://facebook.com/dpe.mots"
+      data-tabs="timeline, events"
+      data-width="300"
+      data-height="500"
+      data-small-header="true"
+      data-adapt-container-width="true"
+      data-hide-cover="false"
+      data-show-facepile="true"
+    >
+      <blockquote
+        cite="https://facebook.com/dpe.mots"
+        class="fb-xfbml-parse-ignore"
+      >
+        <a href="https://facebook.com/dpe.mots"></a>
+      </blockquote>
+    </div>
+
+        <div
+      class="fb-page"
+      data-href="https://web.facebook.com/dpe.mots?_rdc=1&_rdr"
+      data-tabs="timeline, events"
+      data-width="300"
+      data-height="500"
+      data-small-header="true"
+      data-adapt-container-width="true"
+      data-hide-cover="false"
+      data-show-facepile="true"
+    >
+      <blockquote
+        cite="https://web.facebook.com/dpe.mots?_rdc=1&_rdr"
+        class="fb-xfbml-parse-ignore"
+      >
+        <a href="https://web.facebook.com/dpe.mots?_rdc=1&_rdr"></a>
+      </blockquote>
+    </div>
+
+    <div class="fb-customerchat" page_id="PAGE_ID"></div>
+
+
+  </body>
+
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '472143504181367',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v2.11'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+</html>
